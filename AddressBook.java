@@ -15,7 +15,7 @@ public class AddressBook {
     }
     /**
      *
-     *  addressEntry add to addressEntryList
+     * @param addressEntry add to addressEntryList
      */
     public void add(AddressEntry addressEntry) {
         addressEntryList.add(addressEntry);
@@ -39,5 +39,4 @@ public class AddressBook {
         list();
     }
 }
-
 

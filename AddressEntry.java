@@ -17,13 +17,13 @@ public class AddressEntry {
     }
 
     /**
-     *  firstName
-     *  lastName
-     *  street
-     *  state
-     *  zip
-     *  phone
-     *  email
+     * @param firstName
+     * @param lastName
+     * @param street
+     * @param state
+     * @param zip
+     * @param phone
+     * @param email
      */
     public AddressEntry(String firstName, String lastName, String street, String state, int zip, String phone,
                         String email) {
@@ -37,112 +37,112 @@ public class AddressEntry {
     }
 
     /**
-     *  the firstName
+     * @return the firstName
      */
     public String getFirstName() {
         return firstName;
     }
 
     /**
-     *  firstName the firstName to set
+     *  @param firstName the firstName to set
      */
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
 
     /**
-     *  the lastName
+     *  @return the lastName
      */
     public String getLastName() {
         return lastName;
     }
 
     /**
-     *  lastName the lastName to set
+     *  @param lastName the lastName to set
      */
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
 
     /**
-     *  the street
+     *  @return the street
      */
     public String getStreet() {
         return street;
     }
 
     /**
-     *  street the street to set
+     *  @param street the street to set
      */
     public void setStreet(String street) {
         this.street = street;
     }
 
     /**
-     *  the city
+     *  @return the city
      */
     public String getCity() {
         return city;
     }
 
     /**
-     *  city the city to set
+     *  @param city the city to set
      */
     public void setCity(String city) {
         this.city = city;
     }
 
     /**
-     *  the state
+     *  @return the state
      */
     public String getState() {
         return state;
     }
 
     /**
-     *  state the state to set
+     *  @param state the state to set
      */
     public void setState(String state) {
         this.state = state;
     }
 
     /**
-     *  the zip
+     *  @return the zip
      */
     public int getZip() {
         return zip;
     }
 
     /**
-     *  zip the zip to set
+     *  @param zip the zip to set
      */
     public void setZip(int zip) {
         this.zip = zip;
     }
 
     /**
-     *  the phone
+     *  @return the phone
      */
     public String getPhone() {
         return phone;
     }
 
     /**
-     *  phone the phone to set
+     *  @param phone the phone to set
      */
     public void setPhone(String phone) {
         this.phone = phone;
     }
 
     /**
-     *  the email
+     *  @return the email
      */
     public String getEmail() {
         return email;
     }
 
     /**
-     *  email the email to set
+     *  @param email the email to set
      */
     public void setEmail(String email) {
         this.email = email;
@@ -153,6 +153,4 @@ public class AddressEntry {
         return "FirstName=" + firstName + ", LastName=" + lastName + ", street=" + street + ", city="
                 + city + ", state=" + state + ", zip=" + zip + ", phone=" + phone + ", email=" + email + "";
     }
-}
-
 }
